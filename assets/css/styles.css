@@ -309,7 +309,6 @@ body.light-theme{
 .home__container{
   position: relative;
   row-gap: 4.5rem;
-  padding-top: 2rem;
 }
 
 .home__data{
@@ -368,7 +367,7 @@ body.light-theme{
 }
 
 .home__social{
-  bottom: 5rem;
+  bottom: 10rem;
   left: 0;
   display: grid;
   row-gap: .5rem;
