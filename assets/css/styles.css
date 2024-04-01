@@ -396,7 +396,7 @@ body.light-theme{
   background-color: var(--first-color);
   transform: rotate(90deg) translate(16px, 3px);
 }
-/* 
+
 .home__scroll{
   color: var(--first-color);
   right: -1.5rem;
@@ -413,7 +413,7 @@ body.light-theme{
 .home__scroll-name{
   font-size: var(--smaller-font-size);
   transform: rotate(-90deg);
-} */
+}
 
 
 /*=============== BUTTONS ===============*/
@@ -757,10 +757,11 @@ body.light-theme{
 
   .skills__container{
     justify-content: center;
-    margin-inline: 1rem;
+    /* margin-inline: 1rem; */
   }
 
   .skills__content{
+    justify-self: center;
     border-radius: 1.25rem;
     padding: 2rem 4rem;
     width: 90%;
@@ -816,6 +817,10 @@ body.light-theme{
     left: 0;
     right: 0;
     margin: 0 auto;
+  }
+
+  .home__buttons{
+    flex-direction: row;
   }
 
   .about__info{
